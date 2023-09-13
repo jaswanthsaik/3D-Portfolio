@@ -1,0 +1,105 @@
+.contact-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding-left: 120px;
+    overflow: hidden;
+    background-image: url('../../assets/starts.jpg');
+    height: 800px;
+    /* margin-bottom: 30px; */
+}
+
+.contact-form {
+    flex: 0.85;
+    height: 600px;
+    margin-bottom: 180px;
+    margin-top: 150px;
+    background-color: #9b7ed8;
+    padding: 8px;
+    border-radius: 2rem;
+    color: #fff;
+    transition: transform 0.3s ease;
+    transform-style: preserve-3d;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+/* .contact-form:hover {
+    transform: perspective(1000px) rotateZ(40deg) rotateX(40deg) ;
+} */
+
+.contact-form p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 8px;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.contact-form h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 12px;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    
+}
+
+.form {
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: space-between;
+    margin-bottom: 30px;
+   
+}
+
+.form label {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.form span {
+    font-weight: 500;
+    margin-bottom: 4px;
+    justify-content: space-between;
+    /* margin-bottom: 30px; */
+}
+
+.form input,
+.form textarea {
+    background-color: #333;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    outline: none;
+}
+
+.form input::placeholder,
+.form textarea::placeholder {
+    color: #999;
+}
+
+.form button {
+    background-color: #333;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s ease;
+}
+
+.form button:hover {
+    background-color: #555;
+}
+
+.earth-canvas {
+    flex: 0.1;
+    padding-left: 80px;
+}

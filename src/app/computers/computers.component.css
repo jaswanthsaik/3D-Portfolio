@@ -1,0 +1,11 @@
+ .computers-container {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 1100px;
+     width: 1200px;
+ }
+
+ #myCanvas {
+     height: 300px;
+ }
